@@ -1,0 +1,62 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Python files
+*.py text diff=python
+
+# JavaScript files
+*.js text diff=javascript
+*.jsx text diff=javascript
+
+# CSS files
+*.css text diff=css
+
+# HTML files
+*.html text diff=html
+
+# JSON files
+*.json text diff=json
+
+# YAML files
+*.yml text diff=yaml
+*.yaml text diff=yaml
+
+# Markdown files
+*.md text diff=markdown
+
+# Docker files
+Dockerfile text
+docker-compose*.yml text
+
+# Environment files
+.env* text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+
+# Archive files
+*.zip binary
+*.tar binary
+*.gz binary
+
+# Database files
+*.db binary
+*.sqlite binary
+*.sqlite3 binary
+
+# Log files
+*.log text
+
+# Lock files
+package-lock.json text
+yarn.lock text
+Pipfile.lock text
